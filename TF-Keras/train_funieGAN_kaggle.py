@@ -38,6 +38,7 @@ valid = np.ones((batch_size,) + funie_gan.disc_patch)
 fake = np.zeros((batch_size,) + funie_gan.disc_patch)
 
 ## training loop
+print("Entering training loop")
 step = 0
 all_D_losses = []; all_G_losses = []
 while (step <= num_step):
